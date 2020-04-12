@@ -1,9 +1,5 @@
-Face recognition project structure
-Our project structure can be seen by examining the output from the tree  command:
-
 Face recognition with OpenCV, Python, and deep learning
-$ tree --filelimit 10 --dirsfirst
-.
+
 ├── dataset
 │   ├── shahrukh [10 entries]
 │   └── kajol [10 entries]
@@ -39,4 +35,4 @@ recognize_faces_video_file.py : Recognize faces in a video file residing on disk
 encodings.pickle : Facial recognitions encodings are generated from your dataset via encode_faces.py and then serialized to disk.
 After a dataset of images is created (with search_bing_api.py ), we’ll run encode_faces.py  to build the embeddings.
 
-From there, we’ll run the recognize scripts to actually recognize the faces.
+From there, we can run the recognize scripts to actually recognize the faces.
