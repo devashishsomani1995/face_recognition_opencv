@@ -27,7 +27,7 @@ output/ : This is where you can store your processed face recognition videos. I�
 videos/ : Input videos should be stored in this folder. This folder also contains the “lunch scene” video but it hasn’t undergone our face recognition system yet.
 We also have 6 files in the root directory:
 
-search_bing_api.py : Step 1 is to build a dataset (I’ve already done this for you). To learn how to use the Bing API to build a dataset with my script, just see this blog post.
+search_bing_api.py : Step 1 is to build a dataset.
 encode_faces.py : Encodings (128-d vectors) for faces are built with this script.
 recognize_faces_image.py : Recognize faces in a single image (based on encodings from your dataset).
 recognize_faces_video.py : Recognize faces in a live video stream from your webcam and output a video.
